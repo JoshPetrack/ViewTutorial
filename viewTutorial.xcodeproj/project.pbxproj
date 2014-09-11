@@ -21,6 +21,7 @@
 		03A2CA4619C1169E001FDE4C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A2CA2819C1169E001FDE4C /* UIKit.framework */; };
 		03A2CA4E19C1169E001FDE4C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03A2CA4C19C1169E001FDE4C /* InfoPlist.strings */; };
 		03A2CA5019C1169E001FDE4C /* viewTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A2CA4F19C1169E001FDE4C /* viewTutorialTests.m */; };
+		03A2CA5B19C117E7001FDE4C /* JPGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A2CA5A19C117E7001FDE4C /* JPGrid.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		03A2CA4B19C1169E001FDE4C /* viewTutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "viewTutorialTests-Info.plist"; sourceTree = "<group>"; };
 		03A2CA4D19C1169E001FDE4C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		03A2CA4F19C1169E001FDE4C /* viewTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = viewTutorialTests.m; sourceTree = "<group>"; };
+		03A2CA5919C117E7001FDE4C /* JPGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPGrid.h; sourceTree = "<group>"; };
+		03A2CA5A19C117E7001FDE4C /* JPGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPGrid.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				03A2CA3619C1169E001FDE4C /* Main.storyboard */,
 				03A2CA3919C1169E001FDE4C /* JPViewController.h */,
 				03A2CA3A19C1169E001FDE4C /* JPViewController.m */,
+				03A2CA5919C117E7001FDE4C /* JPGrid.h */,
+				03A2CA5A19C117E7001FDE4C /* JPGrid.m */,
 				03A2CA3C19C1169E001FDE4C /* Images.xcassets */,
 				03A2CA2B19C1169E001FDE4C /* Supporting Files */,
 			);
@@ -253,6 +258,7 @@
 				03A2CA3519C1169E001FDE4C /* JPAppDelegate.m in Sources */,
 				03A2CA3B19C1169E001FDE4C /* JPViewController.m in Sources */,
 				03A2CA3119C1169E001FDE4C /* main.m in Sources */,
+				03A2CA5B19C117E7001FDE4C /* JPGrid.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
